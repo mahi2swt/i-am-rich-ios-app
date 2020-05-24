@@ -13,26 +13,7 @@
 		80FEDE872477CF3E00CBD33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FEDE852477CF3E00CBD33E /* Main.storyboard */; };
 		80FEDE892477CF4400CBD33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FEDE882477CF4400CBD33E /* Assets.xcassets */; };
 		80FEDE8C2477CF4400CBD33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FEDE8A2477CF4400CBD33E /* LaunchScreen.storyboard */; };
-		80FEDE972477CF4400CBD33E /* I_Am_RichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEDE962477CF4400CBD33E /* I_Am_RichTests.swift */; };
-		80FEDEA22477CF4500CBD33E /* I_Am_RichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEDEA12477CF4500CBD33E /* I_Am_RichUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		80FEDE932477CF4400CBD33E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80FEDE742477CF3E00CBD33E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80FEDE7B2477CF3E00CBD33E;
-			remoteInfo = "I Am Rich";
-		};
-		80FEDE9E2477CF4500CBD33E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80FEDE742477CF3E00CBD33E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80FEDE7B2477CF3E00CBD33E;
-			remoteInfo = "I Am Rich";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		80FEDE7C2477CF3E00CBD33E /* I Am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +24,14 @@
 		80FEDE882477CF4400CBD33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80FEDE8B2477CF4400CBD33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80FEDE8D2477CF4400CBD33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80FEDE922477CF4400CBD33E /* I Am RichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am RichTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FEDE962477CF4400CBD33E /* I_Am_RichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_RichTests.swift; sourceTree = "<group>"; };
 		80FEDE982477CF4500CBD33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80FEDE9D2477CF4500CBD33E /* I Am RichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am RichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FEDEA12477CF4500CBD33E /* I_Am_RichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_RichUITests.swift; sourceTree = "<group>"; };
 		80FEDEA32477CF4500CBD33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		80FEDE792477CF3E00CBD33E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80FEDE8F2477CF4400CBD33E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80FEDE9A2477CF4500CBD33E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				80FEDE7C2477CF3E00CBD33E /* I Am Rich.app */,
-				80FEDE922477CF4400CBD33E /* I Am RichTests.xctest */,
-				80FEDE9D2477CF4500CBD33E /* I Am RichUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,42 +111,6 @@
 			productReference = 80FEDE7C2477CF3E00CBD33E /* I Am Rich.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80FEDE912477CF4400CBD33E /* I Am RichTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80FEDEA92477CF4500CBD33E /* Build configuration list for PBXNativeTarget "I Am RichTests" */;
-			buildPhases = (
-				80FEDE8E2477CF4400CBD33E /* Sources */,
-				80FEDE8F2477CF4400CBD33E /* Frameworks */,
-				80FEDE902477CF4400CBD33E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80FEDE942477CF4400CBD33E /* PBXTargetDependency */,
-			);
-			name = "I Am RichTests";
-			productName = "I Am RichTests";
-			productReference = 80FEDE922477CF4400CBD33E /* I Am RichTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		80FEDE9C2477CF4500CBD33E /* I Am RichUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80FEDEAC2477CF4500CBD33E /* Build configuration list for PBXNativeTarget "I Am RichUITests" */;
-			buildPhases = (
-				80FEDE992477CF4500CBD33E /* Sources */,
-				80FEDE9A2477CF4500CBD33E /* Frameworks */,
-				80FEDE9B2477CF4500CBD33E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80FEDE9F2477CF4500CBD33E /* PBXTargetDependency */,
-			);
-			name = "I Am RichUITests";
-			productName = "I Am RichUITests";
-			productReference = 80FEDE9D2477CF4500CBD33E /* I Am RichUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,14 +123,6 @@
 				TargetAttributes = {
 					80FEDE7B2477CF3E00CBD33E = {
 						CreatedOnToolsVersion = 11.4;
-					};
-					80FEDE912477CF4400CBD33E = {
-						CreatedOnToolsVersion = 11.4;
-						TestTargetID = 80FEDE7B2477CF3E00CBD33E;
-					};
-					80FEDE9C2477CF4500CBD33E = {
-						CreatedOnToolsVersion = 11.4;
-						TestTargetID = 80FEDE7B2477CF3E00CBD33E;
 					};
 				};
 			};
@@ -221,8 +140,6 @@
 			projectRoot = "";
 			targets = (
 				80FEDE7B2477CF3E00CBD33E /* I Am Rich */,
-				80FEDE912477CF4400CBD33E /* I Am RichTests */,
-				80FEDE9C2477CF4500CBD33E /* I Am RichUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +152,6 @@
 				80FEDE8C2477CF4400CBD33E /* LaunchScreen.storyboard in Resources */,
 				80FEDE892477CF4400CBD33E /* Assets.xcassets in Resources */,
 				80FEDE872477CF3E00CBD33E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80FEDE902477CF4400CBD33E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80FEDE9B2477CF4500CBD33E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,36 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80FEDE8E2477CF4400CBD33E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80FEDE972477CF4400CBD33E /* I_Am_RichTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80FEDE992477CF4500CBD33E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80FEDEA22477CF4500CBD33E /* I_Am_RichUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		80FEDE942477CF4400CBD33E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80FEDE7B2477CF3E00CBD33E /* I Am Rich */;
-			targetProxy = 80FEDE932477CF4400CBD33E /* PBXContainerItemProxy */;
-		};
-		80FEDE9F2477CF4500CBD33E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80FEDE7B2477CF3E00CBD33E /* I Am Rich */;
-			targetProxy = 80FEDE9E2477CF4500CBD33E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		80FEDE852477CF3E00CBD33E /* Main.storyboard */ = {
@@ -435,7 +309,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33LJ5L394;
 				INFOPLIST_FILE = "I Am Rich/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +328,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33LJ5L394;
 				INFOPLIST_FILE = "I Am Rich/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,86 +339,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		80FEDEAA2477CF4500CBD33E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "I Am RichTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.mahendra.I-Am-RichTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Am Rich.app/I Am Rich";
-			};
-			name = Debug;
-		};
-		80FEDEAB2477CF4500CBD33E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "I Am RichTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.mahendra.I-Am-RichTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Am Rich.app/I Am Rich";
-			};
-			name = Release;
-		};
-		80FEDEAD2477CF4500CBD33E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "I Am RichUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.mahendra.I-Am-RichUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "I Am Rich";
-			};
-			name = Debug;
-		};
-		80FEDEAE2477CF4500CBD33E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "I Am RichUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.mahendra.I-Am-RichUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "I Am Rich";
 			};
 			name = Release;
 		};
@@ -561,24 +359,6 @@
 			buildConfigurations = (
 				80FEDEA72477CF4500CBD33E /* Debug */,
 				80FEDEA82477CF4500CBD33E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80FEDEA92477CF4500CBD33E /* Build configuration list for PBXNativeTarget "I Am RichTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80FEDEAA2477CF4500CBD33E /* Debug */,
-				80FEDEAB2477CF4500CBD33E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80FEDEAC2477CF4500CBD33E /* Build configuration list for PBXNativeTarget "I Am RichUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80FEDEAD2477CF4500CBD33E /* Debug */,
-				80FEDEAE2477CF4500CBD33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
